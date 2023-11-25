@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:url('.././images/Rectangle 5.svg')
+}
+.container{
+    width: 800px;
+    background-color: #fff;
+    height: 530px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+}
+.rightSidebar{
+    background: #F4F4F4;
+    width: 310px;
+    height: 530px;
+    border-radius: 10px;
+    text-align: center;
+}
+.rightImage img{
+    width: 220px;
+    height: 183px;
+}
+.rightImage{
+    margin-top: 74px;
+}
+.first{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.second{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #999;
+}
+.rightSidebarTxt{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #999;
+}
+.dot_sub1{
+    width: 7px;
+    height: 7px;
+    background: #08213E;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+.dot_sub2{
+    width: 7px;
+    height: 7px;
+    background: #AAA;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+.Dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.navbar img{
+    width: 30px;
+}
+.navbar span{
+    font-family: Arvo;
+    color: #000;
+    font-family: Arvo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rightSidebarContext{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.btnDiv{
+    margin-top: 40px;
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #08213E;
+}
+.btnDiv a{
+    margin-left: 40px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+.moveBar{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.oneHalf{
+    background-color: blue;
+    width: 170px;
+    background: #08213E;
+    border-radius: 10px;
+    margin-right: 2px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #08213E 0%, #08213E 26.04%, #CEE8FF 26.05%);
+}
+.secondHalf{   
+    height: 3px;
+    border-radius: 20px;
+}
+.horn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgb(247, 234, 234);
+}
+.hand:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgb(247, 234, 234);
+}
+.label1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+}
+.label2{
+    color: #999;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+.formInput input{
+    /* width: 300px; */
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 12px;
+    background: #F9F9F9;
+}
+.formInput{
+    border: 1px solid #CEE8FF;
+    padding: 8px;
+    border-radius: 10px;
+    background: #F9F9F9;
+}
+.form label{
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 550;
+}
+.form div{
+    margin-top: 2px;
+}
+
+.phoneSection input{
+    margin-left: 15px;
+    border: 1px solid #CEE8FF;
+    padding: 10px;
+    width: 270px;
+    outline: none;
+    background: #F9F9F9;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Poppins;
+}
+.selectPhone{
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #CEE8FF;
+    border-radius: 10px;
+    background: #F9F9F9;
+    padding: 8px 1px;
+}
+.passwordInp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9F9F9;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Poppins;
+    border: 1px solid #CEE8FF;
+}
+.password input{
+    width: 270px;
+    border: none;
+    outline: none;
+    background: #F9F9F9;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Poppins;
+    padding: 10px;
+}
+.password{
+    margin-left: 10px;
+}
+.eye{
+    margin-right: 15px;
+}
+.form img{
+    width: 16px;
+}

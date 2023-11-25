@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:url('.././images/Rectangle 5.svg')
+}
+.container{
+    width: 800px;
+    background-color: #fff;
+    height: 530px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+}
+.rightSidebar{
+    background: #F4F4F4;
+    width: 310px;
+    height: 530px;
+    border-radius: 10px;
+}
+.account{
+    font-size: 27px;
+    color: #000;
+    /* font-family: Poppins; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.freeTrial{
+    margin-left: 30px;
+    margin-top: 72px;
+}
+.freeTrial img{
+    width: 18px;
+}
+.freeTrial label{
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+.navbar img{
+    width: 30px;
+}
+.navbar span{
+    font-family: Arvo;
+    color: #000;
+    font-family: Arvo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.leftSidebar{
+    width: 490px;
+    height: 500px;
+}
+.rightSidebarContext{
+    margin-left: 70px;
+}
+.horn{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #E8E7E7;
+    background: #FFF;
+    text-decoration: none;
+}
+.hand{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #E8E7E7;
+    background: #FFF;
+    text-decoration: none;
+}
+.Mock{
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.rTxt{
+    color: #999;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.hornTxt{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.label1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: -20px;
+}
+.label2{
+    color: #848484;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.horn img{
+    width: 30px;
+    margin-left: 10px;
+}
+.hand img{
+    width: 30px;
+    margin-left: 10px;
+}
+.handTxt{       
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.btnDiv{
+    margin-top: 40px;
+}
+.btn1{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #08213E;
+}
+.btnDiv a{
+    color: #000;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 400;
+}
+.moveBar{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.oneHalf{
+    background-color: blue;
+    width: 170px;
+    background: #08213E;
+    border-radius: 10px;
+    margin-right: 2px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #08213E 0%, #08213E 26.04%, #CEE8FF 26.05%);
+}
+.secondHalf{   
+    height: 3px;
+    border-radius: 20px;
+}
+.horn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgb(247, 234, 234);
+    border:  1px solid #CEE8FF;
+}
+.hand:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgb(247, 234, 234);
+    border:  1px solid #CEE8FF;
+}
+.belowBtn{
+    margin-left: 50px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.accountHr{
+    background: #04CB18;
+    width: 240px;
+    margin-bottom: 5px;
+    height: 3px;
+}

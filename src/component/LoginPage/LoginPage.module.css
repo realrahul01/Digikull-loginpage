@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Poppins&display=swap');
+
+body{
+  background: rgb(168, 211, 211);
+  width: 100vw;
+  /* padding: 100px; */
+  height: 100vh;
+  padding-top: 50px;
+}
+.container{
+  width: 800px;
+  background-color: #fff;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSidebar{
+  background: #F4F4F4;
+  width: 310px;
+  height: 500px;
+  border-radius: 10px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+}
+.navbar span{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Arvo';
+}
+.rightSidebar{
+  margin-right: 120px;
+  margin-top: 70px;
+  width: 300px;
+}
+.inp1 input{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: poppins;
+  background: #F4F4F4;
+  /* width: 90%; */
+}
+.inp1{
+  display: flex;
+  border: 1px solid #CEE8FF;
+  /* width: 90%; */
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  background: #F4F4F4;
+}
+.inp2 input{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 12px;
+  background: #F4F4F4;
+  font-family: poppins;
+  /* width: 70%; */
+}
+.inp2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #CEE8FF;
+  /* width: 90%; */
+  padding: 10px;
+  border-radius: 10px;
+  background: #F4F4F4;
+  
+}
+
+.inp{
+  margin-top: 20px;
+}
+
+
+.loginBtn{
+  padding: 6px 40px;
+  background: #08213E;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 12px;
+}
+.p1{
+  color: #999;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+}
+.h3{
+ color: #000;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-bottom: -1px;
+}
+
+.carousel{
+  width: 220px;
+}
+.images{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.security{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.security span{
+  font-family: poppins;
+  font-size: 10px;
+}
+.security label{
+  font-family: poppins;
+  font-size: 10px;
+}
+
+.ask{
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tool{
+  text-align: center;
+  margin-top: 20px;
+}
+.tool small{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #999;
+}
+
+.first{
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.second{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #999;
+}
+.p2{
+  color: #999;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.inputField{
+  margin-top: 10px;
+  font-size: 14px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.security label{
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: poppins;
+}
+.eye{
+  cursor: pointer;
+}
+.inp label{
+  font-size: 14px;
+}
+.Dot{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  
+}
+
+.dot_sub1{
+  background: #08213E;
+  border-radius: 50px;
+  width: 7px;
+  height: 7px;
+  margin-right: 3px;
+}
+.dot_sub2{
+  background: #AAA;
+  border-radius: 50px;
+  width: 7px;
+  margin-right: 3px;
+  height: 7px;
+}
+.moveBar{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.oneHalf{
+  background-color: #08213E;
+  width: 190px;
+  border-radius: 2px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #08213E 0%, #08213E 26.04%, #CEE8FF 26.05%);
+}
+.secondHalf{
+  width: 7px;
+  height: 3px;
+  border-radius: 2px;    
+}
+.navbar img{
+  width: 45px;   
+}
+
+
+
+/* <------------------------------- media query -------------------> */
+
+
+@media only screen and (max-width: 360px) {
+  .leftSidebar{
+    display: none;
+  }
+  .rightSidebar{
+    text-align: center;
+  }
+}

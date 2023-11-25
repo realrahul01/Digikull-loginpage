@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:url('.././images/Rectangle 5.svg')
+}
+.container{
+    width: 70%;
+    background-color: #fff;
+    height: 510px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+}
+.rightSidebar{
+    background: #F4F4F4;
+    width: 420px;
+    height: 510px;
+    border-radius: 10px;
+    text-align: center;
+}
+.rightImage img{
+    width: 230px;
+    height: 183px;
+}
+.rightImage{
+    margin-top: 74px;
+}
+.first{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.second{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #999;
+}
+.rightSidebarTxt{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #999;
+}
+.dot_sub1{
+    width: 6px;
+    height: 6px;
+    background: #08213E;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+.dot_sub2{
+    width: 6px;
+    height: 6px;
+    background: #AAA;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+.Dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+.navbar img{
+    width: 30px;
+}
+.navbar span{
+    font-family: Arvo;
+    color: #000;
+    font-size: 12px;
+    font-weight: 800;
+}
+.navbar{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.rightSidebarContext{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.btnDiv{
+    margin-top: 40px;
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #08213E;
+}
+.btnDiv a{
+    margin-left: 40px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+.moveBar{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.oneHalf{
+    background-color: blue;
+    width: 170px;
+    background: #08213E;
+    border-radius: 10px;
+    margin-right: 2px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #08213E 0%, #08213E 26.04%, #CEE8FF 26.05%);
+}
+.secondHalf{   
+    height: 3px;
+    border-radius: 20px;
+}
+.horn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgb(247, 234, 234);
+}
+.hand:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgb(247, 234, 234);
+}
+.label1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.label2{
+    color: #999;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+.leftSidebar{
+    width: 900px;
+    height: 500px;
+}
+.leftInput input{
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 10px;
+    background: #F9F9F9;
+    color: #BFBFBF;
+}
+.leftInput{
+    border: 1px solid #CEE8FF;
+    padding: 8px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    width: 270px;
+}
+.formSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.leftForm{
+    margin-right: 20px;
+}
+
+.formSection label{
+    color: #000;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 550;
+}
+.password{
+    display: flex;
+    border: 1px solid #CEE8FF;
+    padding: 8px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    width: 270px;
+    justify-content: space-between;
+}
+.pswInp input{
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 12px;
+    background: #F9F9F9;
+}
+.selectPhone{
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #CEE8FF;
+    border-radius: 10px;
+    background: #F9F9F9;
+    padding: 8px 1px;
+}
+.phoneSection input{
+    margin-left: 15px;
+    border: 1px solid #CEE8FF;
+    padding: 10px;
+    width: 205px;
+    outline: none;
+    background: #F9F9F9;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Poppins;
+}
+.formSection img{
+    width: 15px;
+}
